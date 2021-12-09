@@ -33,7 +33,7 @@ public class UIFactoryTest {
 
         // button test
         button = uiFactory.createButton();
-        assertEquals("Click button", button.onClick());
+        assertEquals(" button", button.onClick());
         assertEquals("WinButton", button.render());
 
         // check box test
